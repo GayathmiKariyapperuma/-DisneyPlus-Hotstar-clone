@@ -43,7 +43,7 @@ const createSlide = () => {
 
   //create DOM Elements
   let slide = document.createElement("div");
-  let imgElement = document.createElement("img");
+  var imgElement = document.createElement("img");
   let content = document.createElement("div");
   let h1 = document.createElement("h1");
   let p = document.createElement("p");
