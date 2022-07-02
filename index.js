@@ -34,7 +34,7 @@ let movies = [
 const carousel = document.querySelector(".carousel");
 let sliders = [];
 
-let slideIndex = 0; //track the current title
+let slideIndex = 0; //track the current slide
 
 const createSlide = () => {
   if (slideIndex >= movies.length) {
@@ -49,7 +49,7 @@ const createSlide = () => {
   let p = document.createElement("p");
 
   //attaching all elements
-  imgElement.appendChild(document.createTextNode(" "));
+  imgElement.appendChild(document.createTextNode(""));
   h1.appendChild(document.createTextNode(movies[slideIndex].name));
   p.appendChild(document.createTextNode(movies[slideIndex].des));
   content.appendChild(h1);
@@ -69,7 +69,7 @@ const createSlide = () => {
 
   sliders.push(slide);
 
-  if (sliders.length) {
+  if (slide.length) {
     sliders[0].style.marginLeft =
       "calc(-${100 * (sliders.length - 2)}% - ${30 * (sliders.length - 2)}px)";
   }
