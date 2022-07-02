@@ -89,7 +89,7 @@ body {
   text-decoration: none;
 }
 
-.caraousel-container {
+.carousel-container {
   position: relative;
   width: 100%;
   height: 450px;
@@ -127,7 +127,7 @@ body {
   margin-left: auto;
 }
 
-.slider-content {
+.slide-content {
   position: absolute;
   width: 50%;
   height: 100%;
