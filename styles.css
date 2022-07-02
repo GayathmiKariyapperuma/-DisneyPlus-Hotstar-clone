@@ -28,7 +28,7 @@ body {
   height: 70px;
 }
 
-nav-links {
+.nav-links {
   margin-top: 10px;
   display: flex;
   list-style: none;
