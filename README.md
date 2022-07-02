@@ -1,5 +1,7 @@
 # DisneyPlus Hotstar clone
 
+![image](https://user-images.githubusercontent.com/89676555/177010410-98df6d09-6b62-44d1-b183-edbe3db1ac32.png)
+
 This is the project assigned by the free 7 days the DisneyPlus Hotstar Clone Bootcamp by DevTown.
 <br/>
 ![image](https://uploads-ssl.webflow.com/6077f96cf4fa19216396daaf/61a1bee63c6e040a0dd33805_LOGO.svg)
